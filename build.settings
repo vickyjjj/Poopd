@@ -1,0 +1,16 @@
+settings = {
+	
+	orientation = {
+		default = "landscapeRight",
+		supported = { "landscapeRight", "landscapeLeft" }
+	},
+
+	-- Android permissions
+	androidPermissions = 
+	{
+		"android.permission.INTERNET",
+	  	"android.permission.WRITE_EXTERNAL_STORAGE",
+	  	"android.permission.CAMERA"
+	}
+
+}
